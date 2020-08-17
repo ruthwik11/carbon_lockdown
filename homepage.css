@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/* Body */
+body{
+	padding: 0;
+	margin: 0;
+	background-color: white;
+}
+
+/* Global body of texts */
+.container{
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+
+/* The logo before the headers */
+.logo-img{
+
+	float: left;
+	padding-top: 2px;
+	padding-left: 2px;
+	width: 5%;
+	height: 8%;	
+}
+
+
+
+/* Header */
+Header{
+
+	background: white;
+	color: black;
+	font: 15px sans-serif;
+}
+
+/* Navigation texts */
+nav a{
+	color: White;
+
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	
+}
+
+/* Navigation allingnments */
+nav ul{
+	
+	margin: 0px;
+	padding: 20px;
+	background: red;
+	
+}
+
+
+/* Navigation allignments */
+nav li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+	background: red;
+}
+
+/* In the navigation, highlights the text */
+.current{
+    color: #931C1E;
+    font-weight: bold;
+}
+
+/* In navigation if hover arount on other pages */
+nav a:hover {
+	color: aliceblue;
+	font-weight: bold;
+		
+}
+
+/* Main image uses in home page */
+.home-img{
+
+	width: 100%;
+	height: 400px;
+	/*background-size: cover;*/
+	
+}
+
+/* About us line */
+#introduction h1{
+	text-align: center;
+}
+
+/* Footer */
+footer{
+	padding: 10px;
+	margin-top: 20px;
+	color: white;
+	background-color:#428504;
+	text-align: center;
+}

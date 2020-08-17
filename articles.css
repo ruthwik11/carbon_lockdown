@@ -82,11 +82,33 @@ nav ul li a:hover:not(.active){
 .active{
 	background-color: #F6D600
 }
-.content{
-	display: inline-block;
-	margin-top: 100px;
+
+
+
+/* Main image uses in home page */
+.home-img{
+
+	width: 100%;
+	height: 400px;
+	/*background-size: cover;*/
+	
 }
 
+/* Latest articles line */
+#articles h1{
+	text-align: center;
+}
+
+#articles1 h2{
+	text-align: center;
+	font: 18px bold times new roman;
+}
+
+#articles2 h2{
+	text-align: center;
+	font: 18px bold times new roman;
+}
+/* Footer */
 footer{
 	padding: 10px;
 	margin-top: 20px;
